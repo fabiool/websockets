@@ -19,7 +19,7 @@ data Config = Config { verbose          :: Bool
                      , instNum          :: Int
                      , maxConn          :: Int
                      , counterDelay     :: Int
-                     , waitTime  :: Int
+                     , waitTime         :: Int
                      , delayFactor      :: Int }
             deriving (Show)
 
@@ -200,9 +200,11 @@ parseArguments argv =
 
 
 
+
         isText :: Options -> Bool
         isText x = case x of (Text _) -> True
                              _        -> False
+
 
 
 
@@ -214,9 +216,11 @@ parseArguments argv =
 
 
 
+
         isInstNum :: Options -> Bool
         isInstNum x = case x of (InstNum _) -> True
                                 _           -> False
+
 
 
 
@@ -228,9 +232,11 @@ parseArguments argv =
 
 
 
+
         isCounterDelay :: Options -> Bool
         isCounterDelay x = case x of (CounterDelay _) -> True
                                      _                -> False
+
 
 
 
@@ -241,6 +247,8 @@ parseArguments argv =
 
 
 
+
+
         isDelayFactor :: Options -> Bool
         isDelayFactor x = case x of (DelayFactor _) -> True
                                     _               -> False
@@ -248,77 +256,95 @@ parseArguments argv =
 
 
 
+        safeHead :: [Options] -> Maybe Options
+        safeHead [] = Nothing
+        safeHead xs = Just $ head xs
+
+
+
+
+
         instNum' :: [Options] -> Int -> Int
-        instNum' o v = parse $ head $ filter isInstNum o
+        instNum' o v = parse $ safeHead $ filter isInstNum o
             where
-                parse x = case x of (InstNum y) -> read y :: Int
-                                    _           -> v
+                parse Nothing = v
+                parse (Just (InstNum y)) = read y :: Int
+
+
 
 
 
 
         maxConn' :: [Options] -> Int -> Int
-        maxConn' o v = parse $ head $ filter isMaxConn o
+        maxConn' o v = parse $ safeHead $ filter isMaxConn o
             where
-                parse x = case x of (MaxConn y) -> read y :: Int
-                                    _           -> v
+                parse Nothing = v
+                parse (Just (MaxConn y)) = read y :: Int
+
+
 
 
 
 
         counterDelay' :: [Options] -> Int -> Int
-        counterDelay' o v = parse $ head $ filter isCounterDelay o
+        counterDelay' o v = parse $ safeHead $ filter isCounterDelay o
             where
-                parse x = case x of (CounterDelay y) -> read y :: Int
-                                    _                -> v
+                parse Nothing = v
+                parse (Just (CounterDelay y)) = read y :: Int
+
+
 
 
 
 
         waitTime' :: [Options] -> Int -> Int
-        waitTime' o v = parse $ head $ filter isWaitTime o
+        waitTime' o v = parse $ safeHead $ filter isWaitTime o
             where
-                parse x = case x of (WaitTime y) -> read y :: Int
-                                    _                   -> v
+                parse Nothing = v
+                parse (Just (WaitTime y)) = read y :: Int
+
 
 
 
 
 
         delayFactor' :: [Options] -> Int -> Int
-        delayFactor' o v = parse $ head $ filter isDelayFactor o
+        delayFactor' o v = parse $ safeHead $ filter isDelayFactor o
             where
-                parse x = case x of (DelayFactor y) -> read y :: Int
-                                    _               -> v
+                parse Nothing = v
+                parse (Just (DelayFactor y)) = read y :: Int
+
 
 
 
 
 
         trace' :: [Options] -> Maybe FilePath -> Maybe FilePath
-        trace' o v = parse $ head $ filter isTrace o
+        trace' o v = parse $ safeHead $ filter isTrace o
             where
-                parse x = case x of (Trace y) -> Just y
-                                    _         -> v
+                parse Nothing = v
+                parse (Just (Trace y)) = Just y
+
 
 
 
 
 
         text' :: [Options] -> Maybe FilePath -> Maybe FilePath
-        text' o v = parse $ head $ filter isText o
+        text' o v = parse $ safeHead $ filter isText o
             where
-                parse x = case x of (Text y) -> Just y
-                                    _        -> v
+                parse Nothing = v
+                parse (Just (Text y)) = Just y
+
 
 
 
 
 
         binary' :: [Options] -> Maybe FilePath -> Maybe FilePath
-        binary' o v = parse $ head $ filter isBinary o
+        binary' o v = parse $ safeHead $ filter isBinary o
             where
-                parse x = case x of (Binary y) -> Just y
-                                    _          -> v
+                parse Nothing = v
+                parse (Just (Binary y)) = Just y
 
 
