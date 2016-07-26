@@ -1,0 +1,816 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"maxThreads"
+			],
+			[
+				"read",
+				"readTVarIO"
+			],
+			[
+				"three",
+				"threadsFile"
+			],
+			[
+				"ins",
+				"instNum"
+			],
+			[
+				"bi",
+				"binary"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"tex",
+				"textFile"
+			],
+			[
+				"close",
+				"closeConnection"
+			],
+			[
+				"conn",
+				"connectionSocket"
+			],
+			[
+				"is",
+				"isTerminating"
+			],
+			[
+				"new",
+				"newTMVarIO"
+			],
+			[
+				"shut",
+				"shutdownConnections"
+			],
+			[
+				"ser",
+				"serverId"
+			],
+			[
+				"take",
+				"takeTMVar"
+			],
+			[
+				"clien",
+				"clientAddr"
+			],
+			[
+				"cre",
+				"createServer"
+			],
+			[
+				"game",
+				"gameAttrs"
+			],
+			[
+				"motion",
+				"motionAttrs"
+			],
+			[
+				"rand",
+				"randomDoubleBetween"
+			],
+			[
+				"cha",
+				"characterAttrs"
+			],
+			[
+				"Cha",
+				"CharacterId"
+			],
+			[
+				"randon",
+				"randomNormalForce"
+			],
+			[
+				"list",
+				"listToTuples"
+			],
+			[
+				"appl",
+				"applyForce"
+			],
+			[
+				"maxFor",
+				"maxForceBlinky"
+			],
+			[
+				"rb",
+				"rgbColour"
+			],
+			[
+				"repl",
+				"replacePacMan"
+			],
+			[
+				"Fram",
+				"FrameTimestamp"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"pacm",
+				"pacmanId"
+			],
+			[
+				"fet",
+				"fetchClyde"
+			],
+			[
+				"fetch",
+				"fetchPinky"
+			],
+			[
+				"post",
+				"postRedisplay"
+			],
+			[
+				"Mo",
+				"MotionAttrs"
+			],
+			[
+				"up",
+				"updateGame"
+			],
+			[
+				"Charac",
+				"characterId"
+			],
+			[
+				"Charact",
+				"characterAttrs"
+			],
+			[
+				"Frame",
+				"FrameTimestamp"
+			],
+			[
+				"current",
+				"currentColor"
+			],
+			[
+				"GL",
+				"GLsizei"
+			],
+			[
+				"Dou",
+				"DoubleBuffered"
+			],
+			[
+				"Fra",
+				"FramesPerSecond"
+			],
+			[
+				"main",
+				"mainLoop"
+			],
+			[
+				"fra",
+				"frameNumber"
+			],
+			[
+				"ge",
+				"getPOSIXTime"
+			],
+			[
+				"POS",
+				"getPOSIXTime"
+			],
+			[
+				"app",
+				"appSize"
+			],
+			[
+				"Display",
+				"DisplayUtils"
+			],
+			[
+				"Colo",
+				"Color4"
+			],
+			[
+				"DisplayCall",
+				"displayCallback"
+			],
+			[
+				"N",
+				"Num"
+			],
+			[
+				"PV",
+				"PVectors"
+			],
+			[
+				"get",
+				"getRandomDouble"
+			],
+			[
+				"spee",
+				"speedY"
+			],
+			[
+				"ma",
+				"matrixMode"
+			],
+			[
+				"w",
+				"white"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/User/custom-cabal.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/custom-cabal.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"haskell",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"SublimeRe",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"haske",
+				"Set Syntax: Haskell Repl"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"has",
+				"SublimeHaskell: Insert type"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 401.0
+	},
+	"console":
+	{
+		"height": 211.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"quit()",
+			"exit()",
+			"exit",
+			"1+1",
+			"help"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fabiool/Projects/haskell/websockets"
+	],
+	"file_history":
+	[
+		"/home/fabiool/Projects/haskell/threads-bench/src/Lib.hs",
+		"/home/fabiool/Projects/haskell/threads-bench/app/Main.hs",
+		"/home/fabiool/Projects/haskell/threads-bench/threads-bench.cabal",
+		"/home/fabiool/Projects/haskell/async-bench/src/Lib.hs",
+		"/home/fabiool/Projects/haskell/async-bench/app/Main.hs",
+		"/home/fabiool/Projects/haskell/async-bench/async-bench.cabal",
+		"/home/fabiool/Projects/haskell/async-bench/stack.yaml",
+		"/home/fabiool/Projects/haskell/concurrency/src/IO/Server.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/Lib.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/IO/Config.hs",
+		"/home/fabiool/Projects/haskell/concurrency/app/Main.hs",
+		"/home/fabiool/Projects/haskell/concurrency/concurrency.cabal",
+		"/home/fabiool/Projects/haskell/concurrency/src/Config.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/IO/Client.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/IO/Options.hs",
+		"/home/fabiool/Projects/haskell/pacman/src/IO/Display.hs",
+		"/home/fabiool/Projects/haskell/pacman/PacMan.cabal",
+		"/home/fabiool/Projects/haskell/concurrency/src/syslogtcpserver.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/SyslogTypes.hs",
+		"/home/fabiool/Projects/haskell/concurrency/src/syslogserver.hs",
+		"/home/fabiool/Projects/haskell/stm-bench/app/GetOpt.hs",
+		"/home/fabiool/Projects/haskell/stm-bench/app/Main.hs",
+		"/home/fabiool/lshw.txt",
+		"/etc/modprobe.d/rtl8723be.conf",
+		"/home/fabiool/Projects/haskell/concurrency/src/syslogclient.hs",
+		"/home/fabiool/Downloads/linkedin_connections_export_microsoft_outlook.csv",
+		"/home/fabiool/Projects/haskell/stm-bench/app/Check.hs",
+		"/home/fabiool/Applications/qtfm-5.5/README",
+		"/home/fabiool/Projects/haskell/stm-bench/app/Check1.hs",
+		"/home/fabiool/Projects/haskell/stm-bench/stm-bench.cabal",
+		"/home/fabiool/Projects/haskell/stm-bench/stack.yaml",
+		"/home/fabiool/Projects/haskell/pacman/README.md",
+		"/home/fabiool/Projects/haskell/pacman/tmp/scratchpad.txt ",
+		"/Users/fabiool/Projects/haskell/PacMan/app/Main.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/tmp/scratchpad.txt ",
+		"/Users/fabiool/Projects/haskell/PacMan/README.md",
+		"/Users/fabiool/Projects/zip-projects.sh",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/Display.hs",
+		"/Users/fabiool/Projects/haskell/Bench/src/Lib.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Types.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/GameUtils.hs",
+		"/Users/fabiool/Projects/haskell/Bench/Bench.cabal",
+		"/Users/fabiool/Library/Application Support/Sublime Text 3/Packages/User/SublimeHaskell.sublime-settings",
+		"/Users/fabiool/Library/Application Support/Sublime Text 3/Packages/SublimeHaskell/Settings/SublimeHaskell.sublime-settings",
+		"/Users/fabiool/Projects/haskell/PacMan/src/VectorMaths.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/AvoidingObstacles.md",
+		"/Users/fabiool/Projects/haskell/PacMan/tmp/Graveyard.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/Graphics.hs",
+		"/Users/fabiool/Projects/xcode/MyApp/Podfile",
+		"/Users/fabiool/Projects/hadoop/ellie/exported_env_variables.txt",
+		"/Users/fabiool/Projects/hadoop/ellie/initial-thoughts.txt",
+		"/Users/fabiool/Projects/hadoop/ellie/notes.txt",
+		"/Users/fabiool/Projects/hadoop/ellie/hadoop_ports.md",
+		"/Users/fabiool/Projects/hadoop/ellie/README.md",
+		"/Users/fabiool/Projects/haskell/PacMan/tmp/Lib.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/PacMan.cabal",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/Controls.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/tmp/bb.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/PacMan.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/Graveyard.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/DisplayUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/GraphicsUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/IO/Circle.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/stack.yaml",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/scratchpad.txt ",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Circle.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/bb.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/DisplayUtils.hs",
+		"/Users/fabiool/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/Squares.hs",
+		"/Users/fabiool/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fabiool/Projects/haskell/PacMan/app/untitled",
+		"/Users/fabiool/Projects/haskell/PacMan/LICENSE",
+		"/Users/fabiool/Projects/haskell/studies/sieve.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/Lib.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/Keyboard.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/PointsForRendering.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/RandomUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/VectorUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/build",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Ring.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/graveyard/Ring.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/PacMan.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/PointsForRendering.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/.gitignore",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Keyboard.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Lib.hs",
+		"/private/etc/hosts",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Squares.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/RandomUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/src/Display.hs",
+		"/Users/fabiool/Projects/haskell/PacMan/PacMan.sublime-project",
+		"/Users/fabiool/Projects/github/clone-all.sh",
+		"/Users/fabiool/Projects/haskell/PacMan.sublime-project",
+		"/Users/fabiool/Library/Application Support/Sublime Text 3/Packages/User/custom-cabal.sublime-build",
+		"/Users/fabiool/Projects/haskell/Types.hs",
+		"/Users/fabiool/Projects/haskell/VectorUtils.hs",
+		"/Users/fabiool/Projects/haskell/PacMan.hs",
+		"/Users/fabiool/Projects/haskell/studies/Main.hs",
+		"/Users/fabiool/Projects/haskell/Display.hs",
+		"/Users/fabiool/Projects/haskell/Keyboard.hs",
+		"/Users/fabiool/Projects/haskell/PVectors.hs",
+		"/Users/fabiool/Projects/haskell/Squares.hs",
+		"/Users/fabiool/Projects/haskell/Ring.hs",
+		"/Users/fabiool/Projects/haskell/RandomUtils.hs",
+		"/Users/fabiool/Projects/haskell/PointsForRendering.hs",
+		"/Users/fabiool/Projects/haskell/Circle.hs",
+		"/Users/fabiool/Projects/haskell/ConstantsAndTypes.hs",
+		"/Users/fabiool/Projects/haskell/Double.hs",
+		"/Users/fabiool/Projects/haskell/Coffee.hs",
+		"/Users/fabiool/Projects/haskell/basicio.hs",
+		"/Users/fabiool/Projects/haskell/ApproxCircle.hs",
+		"/Users/fabiool/Projects/haskell/PolyColor.hs",
+		"/Users/fabiool/Projects/haskell/RenderPoints.hs",
+		"/Users/fabiool/Projects/haskell/RenderLines.hs",
+		"/Users/fabiool/Projects/haskell/RenderRubikFace.hs",
+		"/Users/fabiool/Projects/haskell/Reshape1.hs",
+		"/Users/fabiool/Projects/haskell/Reshape2.hs",
+		"/Users/fabiool/Projects/haskell/RubikFace.hs",
+		"/Users/fabiool/Projects/haskell/SierpinskiSponge.hs",
+		"/Users/fabiool/Projects/haskell/SomeRings.hs",
+		"/Users/fabiool/Projects/haskell/SomeSquares.hs",
+		"/Users/fabiool/Projects/haskell/StateUtil.hs",
+		"/Users/fabiool/Projects/haskell/studies.hs",
+		"/Users/fabiool/Projects/haskell/TestCircle.hs",
+		"/Users/fabiool/Projects/haskell/TestRing.hs",
+		"/Users/fabiool/Projects/haskell/Viewport.hs",
+		"/Users/fabiool/Projects/haskell/untitled.hs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			"/Users/fabiool/Projects/haskell/src",
+			"/Users/fabiool/Projects/haskell"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"maxThreads",
+			"forkIO",
+			"MaxConnections",
+			"connectionHandler",
+			"putStrLn",
+			"putStrLn \"",
+			"someFunc",
+			"ParseResult",
+			"Flag",
+			"undefined",
+			"acceptConnection",
+			"Either SomeException a",
+			"newTM",
+			"WSSThreadEvent",
+			"ServerRegistry",
+			"acceptConnections",
+			"replicateM_",
+			"simpleHTTP",
+			"^(.*)$",
+			"/",
+			"^.*include_recipe ",
+			" ",
+			"    let game = nilGame\n    gameAttrs <- resetGameAttrs playerNames timestamp lastGame\n    let game = replaceGameAttrs gameAttrs game\n    frameAttrs <- resetFrameAttrs gameAttrs\n    gameCast <- resetGameCast game (gameCast game) \n",
+			"Direction",
+			"checkForce",
+			"applyies",
+			"maxSpeedClyde",
+			"999999999999",
+			"putStrLn",
+			"newCharacter",
+			"makeCharacter",
+			"Direction",
+			"checkForce",
+			"updateGame",
+			"update",
+			"specialCallback",
+			"renderGameCast",
+			"makeVector3",
+			"vectorAdd",
+			"Searching",
+			"vectorAdd",
+			"randomNormalForce",
+			"getRandomDouble",
+			"ColorBuffer",
+			"clearColor",
+			"emptyWindow",
+			"translate",
+			"GLfloat",
+			"renderAs",
+			"gameCast",
+			"resetMatrixes",
+			"GameUtils",
+			"getRandomDouble",
+			"POSIXTime",
+			"IO",
+			"\\n*\\n",
+			"\\n\\n",
+			" ",
+			"VectorUtils.",
+			" * = ",
+			"  = ",
+			"  =  ",
+			"Column",
+			"::  ",
+			"Int",
+			"constanct",
+			"new",
+			"currentColor $= ",
+			"clearColor $= ",
+			"RingAttrs",
+			"getVector3",
+			"_SAMPLE_SIZE",
+			"GLint",
+			"winCenter",
+			"_OUTER_RADIUS",
+			"_INNER_RADIUS",
+			"_WIN_CENTER",
+			"_APP_NAME",
+			"_APP_HEIGHT",
+			"_APP_WIDTH",
+			"_WINDOW_HEIGHT",
+			"_WINDOW_WIDTH",
+			"Double",
+			"8660254037844387",
+			"49999999999999994",
+			"$",
+			"$BASE_URI",
+			"clone fabiool",
+			"^",
+			" .*$",
+			"path",
+			"add_to_Path",
+			"PVector",
+			"PVectors",
+			"specialKeyCallback ",
+			"sounds play",
+			"keyboardListener",
+			"GLFloat",
+			"ir",
+			"outerRadius",
+			"innerRadius",
+			"alpha",
+			"number",
+			"radius",
+			"0.11.2",
+			"vectors_",
+			"Prelude> let ",
+			"<td>",
+			"\\n",
+			"</td><td>",
+			"<tr><td>",
+			"^<tr",
+			"><tr>",
+			"><tr",
+			"><tr ",
+			"><",
+			"[0-9]* [A-Z][a-z]* [0-9,]*",
+			"><"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ConnectionsCount",
+			"-- putStrLn",
+			"putStrLn $ \"",
+			"runServer",
+			"ParsedOptions",
+			"Options",
+			"acceptConnections",
+			"Reason",
+			"Event",
+			"Registry",
+			"acceptConnection",
+			"tar -czvf ./\\1_as_of_08June2016.tar.gz ./\\1",
+			"",
+			"applies",
+			"infinite",
+			"render",
+			"addVector",
+			"resetMatrices",
+			"\\n",
+			"",
+			" = ",
+			":: ",
+			"constant",
+			"nil",
+			"",
+			"makeVector3",
+			"sampleSize",
+			"GLfloat",
+			"windowCenter",
+			"outerRadius",
+			"innerRadius",
+			"winCenter",
+			"appName",
+			"appHeight",
+			"appWidth",
+			"_APP_HEIGHT",
+			"_APP_WIDTH",
+			"GLfloat",
+			"Double",
+			"87",
+			"50",
+			"\"",
+			"\"$BASE_URI",
+			"clone $BASE_URI/fabiool",
+			"git clone ",
+			"",
+			"Vector",
+			"VectorUtils",
+			"specialKeyCallback' ",
+			"sound plays",
+			"specialKeyCallback",
+			"GLfloat",
+			"i",
+			"or",
+			"ir",
+			"a",
+			"n",
+			"r",
+			"$CHEFDK_VERSION",
+			"",
+			"\\n<td>",
+			"\\n\\n<td>",
+			"",
+			"</td>\\n        <td>",
+			"<tr>\\n        <td>",
+			"    <tr",
+			">\\n<tr>",
+			">\\n<tr ",
+			">\\n<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 226.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_error_panel":
+	{
+		"height": 193.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 100.0
+	},
+	"output.sublime_haskell_build_log":
+	{
+		"height": 241.0
+	},
+	"output.sublime_haskell_error_panel":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/Haskell/Haskell.sublime-build",
+	"project": "websockets.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
