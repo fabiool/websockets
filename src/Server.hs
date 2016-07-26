@@ -1,3 +1,4 @@
+
 module Server ( runServer ) where
 
 import Control.Concurrent ( threadDelay )
@@ -5,6 +6,7 @@ import Control.Concurrent.STM ( atomically )
 import Control.Concurrent.STM.TChan ( TChan(..), newTChanIO, readTChan )
 import Control.Concurrent.STM.TVar ( TVar(..), readTVarIO, writeTVar )
 import Control.Concurrent.Thread.Group ( ThreadGroup )
+import Control.Exception ( bracket )
 import Control.Monad ( when, unless )
 import Data.Time.Clock ( getCurrentTime )
 import Data.Time.Format ( formatTime, defaultTimeLocale, iso8601DateFormat )
@@ -18,8 +20,11 @@ import Types
 runServer :: Config -> Protocol -> ShutdownControlVar -> IO ()
 runServer c p v =
     do
+
         runConditionally runServer'
+
     where
+
         forkIO' :: ThreadGroup -> IO () -> IO ()
         forkIO' t a = do
             ThreadGroup.forkIO t a
@@ -38,21 +43,18 @@ runServer c p v =
 
             f <- threadsFile sid
 
-            h <- openFile f WriteMode
+            bracket (openFile f WriteMode) hClose $ \h -> do
 
-            let n = maxConnections p
+                let n = maxConnections p
 
-            -- forkIO' t (commandPrompt t) -- TODO: admin prompt should move to main thread.
+                forkIO' t (commandPrompt t) -- TODO: admin prompt should move to main thread.
+                forkIO' t (threadsCounter h t)
+                forkIO' t (connectionListener n t q)
+                forkIO' t (connectionDispatcher n t q)
 
-            forkIO' t (threadsCounter h t)
-            forkIO' t (connectionListener n t q)
-            forkIO' t (connectionDispatcher n t q)
+                ThreadGroup.waitN 2 t
 
-            ThreadGroup.waitN 2 t
-
-            hClose h
-
-            -- runServer p v
+            return ()
 
         commandPrompt :: ThreadGroup -> IO ()
         commandPrompt t = commandPrompt'
